@@ -48,10 +48,6 @@ body {
     background: $primary-color;
     padding: 1em 1.5em;
   }
-  &:hover {
-    transform: translateY(1px);
-    filter: opacity(95%);
-  }
 }
 
 .box-4 {
@@ -205,6 +201,10 @@ body {
     border-radius: 0.6em;
     padding: 0.5em 1em;
     margin-left: 7.6em;
+    &:hover {
+      background: #7aa189;
+      color: $white-color;
+    }
   }
   .card-bids-left, .card-bids-right {
     position: relative;

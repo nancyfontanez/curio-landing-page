@@ -206,10 +206,6 @@ body {
   transform: translateY(1px);
   filter: opacity(95%);
 }
-.box-3:hover {
-  transform: translateY(1px);
-  filter: opacity(95%);
-}
 
 .box-4 {
   grid-column: 1/7;
@@ -395,6 +391,10 @@ body {
   border-radius: 0.6em;
   padding: 0.5em 1em;
   margin-left: 7.6em;
+}
+.box-10 button:hover {
+  background: #7aa189;
+  color: #ffffff;
 }
 .box-10 .card-bids-left, .box-10 .card-bids-right {
   position: relative;
