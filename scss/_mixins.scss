@@ -2,7 +2,12 @@
     color: $white-color;
     border-radius: 0.5em;
     border: none;
+    &:hover {
+        transform: translateY(1px);
+        filter: opacity(95%);
+    }
 }
+
 
 @mixin arrows-left-right {
     grid-column: 10 / 13;

@@ -48,6 +48,10 @@ body {
     background: $primary-color;
     padding: 1em 1.5em;
   }
+  &:hover {
+    transform: translateY(1px);
+    filter: opacity(95%);
+  }
 }
 
 .box-4 {
